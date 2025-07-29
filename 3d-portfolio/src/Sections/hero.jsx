@@ -2,9 +2,6 @@ import React from 'react'
 import {words} from "../Constants/index.js";
 import Button from "../Components/Button.jsx";
 
-
-  
-
 const Hero = () => {
     return (
         <section id="hero" className="relative overflow-hidden">
@@ -13,7 +10,7 @@ const Hero = () => {
             </div>
 
             <div className="hero-layout">
-
+              {/*left hero section*/}
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
@@ -46,6 +43,10 @@ const Hero = () => {
                         />
                     </div>
                 </header>
+
+                {/*right side 3d section*/}
+
+
             </div>
         </section>
     )
