@@ -1,8 +1,9 @@
 
 
-const Button = ({text,className='',id}) => {
+const Button = ({text,className,id}) => {
     return (
-        <a id={id} className={`cta-wrapper group ${className ?? ''} `}>
+        /* cta-Call to action*/
+        <a id={id} className={`  ${className ?? ''} cta-wrapper `}>
             <div className="cta-button group ">
                 <div className="bg-circle"/>
                     <p className="text">
